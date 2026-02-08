@@ -1,212 +1,86 @@
-# ModularPress Core
+# Contributing to ModularPress
 
-ModularPress is a modern modular CMS admin panel built for PHP 8.x projects.
-It is designed for teams that want predictable structure, long term maintainability and full control over their systems.
+Thank you for your interest in ModularPress.
 
-This repository represents the **core reference and documentation entry point** for ModularPress.
-The full product, licensing and commercial packages are available at https://modularpress.eu
-
-![ModularPress Admin](./assets/modularpress-preview.png)
+Before proceeding, please read this document carefully. ModularPress is **not an open source project** and this repository does not accept public code contributions.
 
 ---
 
-## What is ModularPress
+## Commercial product notice
 
-ModularPress is **not a theme** and **not a plugin marketplace**.
+ModularPress is a **commercial CMS product** developed and maintained by **Network Technology**.
 
-It is a focused CMS admin panel where content, users and configuration are separated into clear, independent modules with a single responsibility.
+This repository does **not** contain the full product source code.  
+It serves as a public reference, documentation entry point and technical overview.
 
-Instead of plugin driven complexity, ModularPress provides:
-- Predictable admin structure
-- Clean and explicit configuration
-- Long term stability for real production systems
-
-ModularPress was built from operational needs, not marketing requirements.
-It is used in long running projects where stability, security and clarity matter more than visual builders or short term flexibility.
+There is no implied open source license, community ownership or unrestricted contribution model.
 
 ---
 
-## Core Principles
+## What this repository is for
 
-ModularPress is built around a small set of strict principles:
+This repository exists to:
 
-### Clarity
-- No hidden behavior
-- No implicit dependencies
-- Clear admin navigation and responsibilities
+- Provide high level documentation and technical references  
+- Explain architecture, modules and design philosophy  
+- Serve as a public point of reference for customers and partners  
+- Host non sensitive assets such as previews and documentation
 
-### Modularity
-- Each module is independent
-- Modules can be enabled or disabled without breaking others
-- No global plugin chaos
+It is **not** intended to:
 
-### Predictability
-- Consistent admin structure across all modules
-- Same navigation logic everywhere
-- Editors and admins always know where things are
-
-### Performance
-- Lightweight PHP 8.x architecture
-- Optimized SQL queries
-- No legacy framework core
-
-### Control
-- Runs on your own server
-- No cloud lock-in
-- No external runtime dependencies
+- Accept public feature implementations  
+- Accept core code changes  
+- Operate as a community driven codebase
 
 ---
 
-## How ModularPress Works
+## Contributions policy
 
-Each module in ModularPress is fully independent and includes:
-- Its own database tables
-- Its own permissions and roles
-- Its own admin screens
-- Clear boundaries to other modules
+### Public contributions
 
-There are **no hidden dependencies** between modules and no global plugin state.
+External contributions to the ModularPress core codebase are not accepted.
 
-This makes ModularPress suitable for:
-- Long term maintained projects
-- Internal tools
-- Structured websites
-- Multi-role admin systems
+Please do **not** open pull requests for:
 
----
+- New features  
+- Refactoring or code style changes  
+- Changes to core architecture or modules
 
-## From Installation to Live Content
+Such pull requests will be closed without review.
 
-ModularPress runs entirely on your own infrastructure.
+### Documentation corrections
 
-### 1. Install on your server
-Upload the project, run the installer and create your first admin account.
-Connect your database and log in within minutes.
+If you notice a documentation error in this repository and you are a customer or partner, contact us through the official support channels described in `SUPPORT.md`.
 
-### 2. Enable only the modules you need
-Switch on Users, Posts, Menus, SEO or optional modules from a single control screen.
-Keep the admin clean and focused.
-
-### 3. Invite your team and publish
-Add roles, invite editors and start publishing content.
-Fine grained permissions keep the system secure without extra plugins.
+We may update the documentation internally based on your report.
 
 ---
 
-## Available Modules
+## Security reports
 
-ModularPress is built around focused admin modules.
+Security related reports are handled through a separate, private channel.
 
-### Core Modules
-- **Dashboard**  
-  Central overview of enabled modules, status and quick access
+Do **not** open GitHub issues or pull requests for security topics.  
+Follow the instructions in:
 
-- **Users**  
-  Admin accounts, roles and access policies
-
-- **Posts**  
-  Pages, posts and structured publishing workflows
-
-- **Categories**  
-  Language aware categorization with predictable URL structure
-
-- **Menus**  
-  Navigation menus for frontend and private areas
-
-- **Settings**  
-  Global site configuration and integrations
-
-### Extended and Optional Modules
-- **SEO**  
-  Meta titles, descriptions, aliases and clean URLs
-
-- **Contacts**  
-  Public contact data reusable across templates
-
-- **Contact Vault**  
-  Secure storage for sensitive contact information with GDPR awareness
-
-- **Client Requests**  
-  Manage incoming requests, statuses and communication history
-
-- **Q&A**  
-  Structured knowledge base and support content
-
-- **Services**  
-  Service definitions, pricing models and packages
-
-- **Videos**  
-  Video pages and embeds optimized for SEO
-
-- **Google Maps**  
-  Locations, map pins and structured frontend output
-
-- **Security**  
-  Captcha integration and admin access protection
-
-A full and always up to date list is available at:
-https://modularpress.eu/modules
+- `SECURITY.md`
 
 ---
 
-## Use Cases
+## Commercial changes and feature requests
 
-ModularPress is used in a wide range of projects:
+Changes to the product, new modules and feature requests are handled as part of commercial agreements.
 
-- Corporate websites
-- Agency managed client sites
-- Client portals
-- Internal business tools
-- Long term content driven platforms
+If you want to:
 
-It is especially suited for teams that manage multiple projects and want a consistent, predictable admin experience.
+- Propose a new module  
+- Request a custom workflow  
+- Discuss integration with existing systems
 
----
+Use the contact form on the product site or your existing commercial contact.
 
-## For Different Roles
+Product site:
 
-### Site Owners
-Clear overview of content, requests and operations without technical complexity.
+- https://modularpress.eu
 
-### Editors
-Structured editorial workflow with drafts, approvals and clean publishing tools.
-
-### Developers
-Full control over database structure, performance and custom extensions without fighting plugin conflicts.
-
----
-
-## Licensing and Availability
-
-ModularPress is a **commercial product**.
-
-It is developed and maintained by **Network Technology**, an engineering company focused on real production systems, infrastructure and long term software solutions.
-
-The full source code, installers and commercial packages are available only to customers with a valid agreement.
-
-This GitHub repository:
-- Does not contain the full product source
-- Is not an open source CMS
-- Serves as a public reference and documentation entry point
-
-For product details, pricing and demos visit:
-https://modularpress.eu
-
----
-
-## About Network Technology
-
-ModularPress is built from real operational experience.
-
-Network Technology works daily with systems that must remain stable, secure and predictable under real load.
-The same principles applied in ModularPress are used across all delivered projects.
-
----
-
-## Learn More
-
-- Product overview: https://modularpress.eu
-- Modules: https://modularpress.eu/modules
-- Use cases: https://modularpress.eu/use-cases
-- Pricing: https://modularpress.eu/pricing
-- Company: https://modularpress.eu/company
+Thank you for respecting these guidelines.
